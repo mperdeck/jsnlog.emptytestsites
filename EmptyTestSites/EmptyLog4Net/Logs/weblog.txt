@@ -1,2 +1,3 @@
-2013-09-13 14:58:03,031 | INFO | serverlogger | Info Message generated on server
-2013-09-13 14:58:49,631 | INFO | serverlogger | Info Message generated on server
+2014-04-10 13:08:53,498 | INFO | serverlogger | Info Message generated on server
+2014-04-10 13:09:31,389 | INFO | serverlogger | Info Message generated on server
+2014-04-10 13:19:52,512 | INFO | serverlogger | Info Message generated on server
