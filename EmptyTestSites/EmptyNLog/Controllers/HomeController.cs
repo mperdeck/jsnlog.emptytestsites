@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using NLog;
 
-namespace EmptyLog4Net.Controllers
+namespace EmptyNLog.Controllers
 {
     public class HomeController : Controller
     {

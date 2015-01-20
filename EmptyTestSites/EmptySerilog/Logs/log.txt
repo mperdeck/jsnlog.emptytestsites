@@ -1,0 +1,66 @@
+﻿[6/07/2014 1:59:39 PM +10:00] Information: "Hello, Serilog2!"
+
+[6/07/2014 1:59:39 PM +10:00] Information: "{d1}"
+d1 = "{ x = 5, y = 88 }"
+
+[6/07/2014 1:59:39 PM +10:00] Information: "{@d1}"
+d1 = { x: 5, y: 88 }
+
+[6/07/2014 1:59:41 PM +10:00] Fatal: "{message:l}"
+message = "log message"
+name = "jsLogger"
+
+[6/07/2014 1:59:41 PM +10:00] Warning: "{message:l}"
+message = [("x": 5), ("y": 88)]
+name = "jsLogger"
+
+[12/07/2014 10:46:39 PM +10:00] Information: "Hello, Serilog2!"
+
+[12/07/2014 10:46:39 PM +10:00] Information: "{d1}"
+d1 = "{ x = 5, y = 88 }"
+
+[12/07/2014 10:46:39 PM +10:00] Information: "{@d1}"
+d1 = { x: 5, y: 88 }
+
+[12/07/2014 10:46:40 PM +10:00] Fatal: "{message:l}"
+message = "log message"
+name = "jsLogger"
+
+[12/07/2014 10:46:40 PM +10:00] Warning: "{message:l}"
+message = [("x": 5), ("y": 88)]
+name = "jsLogger"
+
+[23/07/2014 8:06:18 PM +10:00] Information: "Hello, Serilog2!"
+
+[23/07/2014 8:06:18 PM +10:00] Information: "{d1}"
+d1 = "{ x = 5, y = 88 }"
+
+[23/07/2014 8:06:18 PM +10:00] Information: "{@d1}"
+d1 = { x: 5, y: 88 }
+
+[3/09/2014 12:12:01 AM +10:00] Information: "Hello, Serilog2!"
+
+[3/09/2014 12:12:01 AM +10:00] Information: "{d1}"
+d1 = "{ x = 5, y = 88 }"
+
+[3/09/2014 12:12:01 AM +10:00] Information: "{@d1}"
+d1 = { x: 5, y: 88 }
+
+[24/11/2014 10:54:34 PM +11:00] Information: "Logging from controller"
+
+[24/11/2014 10:55:13 PM +11:00] Information: "Logging from controller"
+
+[24/11/2014 10:56:34 PM +11:00] Information: "Logging from controller"
+
+[24/11/2014 10:56:58 PM +11:00] Information: "Logging from controller"
+
+[24/11/2014 11:13:33 PM +11:00] Information: "Logging from controller"
+
+[24/11/2014 11:13:34 PM +11:00] Fatal: "{@message:l}"
+message = "log message"
+name = "jsLogger"
+
+[24/11/2014 11:13:34 PM +11:00] Warning: "{@message:l}"
+message = [("x": 5), ("y": 88)]
+name = "jsLogger"
+

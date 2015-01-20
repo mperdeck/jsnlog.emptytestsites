@@ -1,16 +1,21 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>EmptyNLog</title>
+    <title>EmptySerilog</title>
 @*    @Html.Raw(JSNLog.JavascriptLogging.Configure())*@
 </head>
 <body>
-    <h1>EmptyNLog</h1>
+    <h1>EmptySerilog</h1>
     <script type="text/ecmascript">
-        // JL("jsLogger").fatal("log message from Level1/Page1");
-        alert('nlog from Level1/Page1');
+        // JL("jsLogger").fatal("log message");
+        // JL("jsLogger").warn({ x: 5, y: 88 });
+        alert('serilog');
     </script>
         
     <div>

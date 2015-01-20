@@ -1,3 +1,2 @@
-2014-04-10 13:08:53,498 | INFO | serverlogger | Info Message generated on server
-2014-04-10 13:09:31,389 | INFO | serverlogger | Info Message generated on server
-2014-04-10 13:19:52,512 | INFO | serverlogger | Info Message generated on server
+2014-07-06 03:16:08,700 | INFO | serverlogger | Info Message generated on server
+2014-07-06 03:18:09,443 | INFO | serverlogger | Info Message generated on server

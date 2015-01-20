@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using NLog;
+using Common.Logging;
 
 namespace EmptyNLog.Controllers
 {
-    public class Level1Controller : Controller
+    public class HomeController : Controller
     {
         //
         // GET: /Home/
 
-        public ActionResult Page1()
+        public ActionResult Index()
         {
-            Logger logger = LogManager.GetLogger("serverlogger");
-            logger.Warn("Warn Message generated on server, Level1/Page1");
+            ILog log = LogManager.GetLogger("Server Logger");
+            log.Debug("Warn Message generated on server");
 
             return View();
         }
-
     }
 }
