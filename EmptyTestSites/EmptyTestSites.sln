@@ -59,6 +59,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptySerilog", "EmptySerilo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyCommonLogging2Nlog", "EmptyCommonLogging2Nlog\EmptyCommonLogging2Nlog.csproj", "{CF0CAE6C-D436-40EF-BCBB-BD774E268255}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmptyCommonLogging3Nlog", "EmptyCommonLogging3Nlog\EmptyCommonLogging3Nlog.csproj", "{97D5D7EB-BCA8-4C2A-B529-5881AE8A2F01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -101,6 +103,10 @@ Global
 		{CF0CAE6C-D436-40EF-BCBB-BD774E268255}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF0CAE6C-D436-40EF-BCBB-BD774E268255}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF0CAE6C-D436-40EF-BCBB-BD774E268255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D5D7EB-BCA8-4C2A-B529-5881AE8A2F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D5D7EB-BCA8-4C2A-B529-5881AE8A2F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D5D7EB-BCA8-4C2A-B529-5881AE8A2F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D5D7EB-BCA8-4C2A-B529-5881AE8A2F01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
