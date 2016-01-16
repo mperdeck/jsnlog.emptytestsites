@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace EmptyCommonLogging2Nlog
+namespace EmptyCommonLogging3NLog
 {
     public class FilterConfig
     {

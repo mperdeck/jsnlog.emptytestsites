@@ -64,3 +64,35 @@ name = "jsLogger"
 message = [("x": 5), ("y": 88)]
 name = "jsLogger"
 
+[21/01/2015 11:37:30 PM +11:00] Information: "Hello, Serilog2!"
+
+[21/01/2015 11:37:30 PM +11:00] Information: "{d1}"
+d1 = "{ x = 5, y = 88 }"
+
+[21/01/2015 11:37:30 PM +11:00] Information: "{@d1}"
+d1 = { x: 5, y: 88 }
+
+[21/01/2015 11:37:31 PM +11:00] Fatal: "{@message:l}"
+message = "client log message"
+name = "jsLogger"
+
+[21/01/2015 11:37:31 PM +11:00] Warning: "{@message:l}"
+message = [("x": 5), ("y": 88)]
+name = "jsLogger"
+
+[21/01/2015 11:38:21 PM +11:00] Information: "Hello, Serilog2!"
+
+[21/01/2015 11:38:21 PM +11:00] Information: "{d1}"
+d1 = "{ x = 5, y = 88 }"
+
+[21/01/2015 11:38:21 PM +11:00] Information: "{@d1}"
+d1 = { x: 5, y: 88 }
+
+[21/01/2015 11:38:22 PM +11:00] Fatal: "{@message:l}"
+message = "client log message"
+name = "jsLogger"
+
+[21/01/2015 11:38:22 PM +11:00] Warning: "{@message:l}"
+message = [("x": 5), ("y": 88)]
+name = "jsLogger"
+

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Common.Logging;
 
-namespace EmptyNLog.Controllers
+namespace EmptyCommonLogging2Nlog.Controllers
 {
     public class HomeController : Controller
     {
